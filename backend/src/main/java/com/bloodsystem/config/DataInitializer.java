@@ -1,7 +1,9 @@
 package com.bloodsystem.config;
 
+import com.bloodsystem.model.BloodGroup;
 import com.bloodsystem.model.Role;
 import com.bloodsystem.model.User;
+import com.bloodsystem.repository.BloodGroupRepository;
 import com.bloodsystem.repository.RoleRepository;
 import com.bloodsystem.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
